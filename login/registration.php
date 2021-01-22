@@ -34,8 +34,8 @@ VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
 <form name="registration" action="" method="post">
 <input style="text-align:center" type="text" name="username" placeholder="Username" required /><br><br>
 <input style="text-align:center" type="email" name="email" placeholder="Email" required /><br><br>
-<input style="text-align:center" type="password" name="password" placeholder="Password" required /><br><br><br>
-<input style="text-align:center" type="submit" name="submit" value="Register" />
+<input style="text-align:center" type="password" name="password" placeholder="Password" required /><br><br>
+<input style="text-align:center" type="submit" name="submit" value="Register" />&nbsp&nbsp
 <input style="text-align:center; background-color:#FF0000" type="submit" name="submit" value="Sign in" />
 
 </form>
